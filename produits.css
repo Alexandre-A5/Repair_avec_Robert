@@ -38,7 +38,31 @@
     min-width: 10%;
 
 }
-.prod_famille_content{
-    display: flex;
 
+.famille_card button{
+    background-color: black;
+    color:white;
+    padding: 15px 40px;
+    border:none;
+    border-radius: 5px;
+}
+
+
+.prod_marque_container{
+    padding:0 80px;
+    margin:50px 0;
+    flex-direction: column;
+}
+.prod_marque_button_container{
+    margin-left:20px;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.button_marque{
+    background-color: rgb(255, 255, 255);
+    color: rgb(0, 0, 0);
+    padding: 20px 50px;
+    border-radius: 10px;
+    border:1px solid;
 }

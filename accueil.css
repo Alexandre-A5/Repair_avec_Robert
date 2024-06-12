@@ -29,6 +29,7 @@
 
 .service_acc{
     padding:0px 80px;
+    margin-bottom: 100px;
 }
 
 .service_acc h2{
@@ -54,7 +55,7 @@
     background-color: white;
     border-radius: 5px;
     width: 300px;
-    height: 700px;
+    height: 600px;
     text-align: left;
     transition: transform 0.3s, box-shadow 0.3s;
 }
