@@ -1,0 +1,44 @@
+.prod_pres{
+    padding: 0 80px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+}
+.prod_pres p, span{
+    width:50%;
+    font-family: Montserrat, sans-serif, thin;
+    font-weight: 200;
+}
+
+.prod_pres h1{
+    font-size: 3rem;
+    font-family: Montserrat, sans-serif, thin;
+    font-weight: 600;
+}
+
+.prod_famille_container{
+    padding:0 80px;
+}
+.prod_famille_card_container{
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+
+
+}
+.famille_card{
+    border:none;
+    box-shadow: -1px 3px 7px rgba(0,0,0,0.14);
+    margin: 0 0 0 20px;
+    border-radius:15px;
+    padding: 20px 20px;
+    height: 90%;
+    min-width: 10%;
+
+}
+.prod_famille_content{
+    display: flex;
+
+}
