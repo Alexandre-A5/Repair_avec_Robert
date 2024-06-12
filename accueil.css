@@ -1,0 +1,560 @@
+.acc_pres{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    flex-direction: column;
+}
+
+.acc_pres p, span{
+    width:50%;
+    font-family: Montserrat, sans-serif, thin;
+    font-weight: 200;
+}
+
+.acc_pres h1{
+    font-size: 3rem;
+    font-family: Montserrat, sans-serif, thin;
+    font-weight: 600;
+}
+
+.acc_pres button{
+    background-color: black;
+    color:white;
+    padding:15px 20px;
+    border:none;
+    border-radius: 15px;
+}
+
+.service_acc{
+    padding:0px 80px;
+}
+
+.service_acc h2{
+    font-family: var(--font-title) ;
+    font-size: 3em;
+    margin: 0;
+}
+
+.service_acc p{
+    font-family: var(--font-title);
+    font-weight: var(--font-weight-p)
+
+}
+/*   ----     CSS POUR LES CARTES   ----      */
+.card-container {
+    display: flex;
+    justify-content: space-between;
+    gap:100px;
+
+}
+
+.card {
+    background-color: white;
+    border-radius: 5px;
+    width: 300px;
+    height: 700px;
+    text-align: left;
+    transition: transform 0.3s, box-shadow 0.3s;
+}
+
+.card img {
+    width: 100%;
+    height:50%;
+    object-fit: cover;
+    transform: translateZ(50px);
+}
+
+.card img:hover{
+    box-shadow: 0 40px 60px rgba(0, 0, 0, 0.3);
+    
+}
+
+.card h3 {
+    margin-top:0;
+    margin-bottom:10px;
+    font-size: 1.5em;
+}
+
+.card p {
+    margin-bottom:20px;
+    font-size: 1em;
+}
+
+.card button {
+    background-color: black;
+    color:white;
+    padding:10px 20px;
+    border:none;
+    border-radius: 5px;
+    cursor: none;
+
+}
+
+/* ---- CSS CONTACT ---- */
+
+.contact_acc{
+    display: flex;
+    justify-content: start;
+    align-items: start;
+    text-align: start;
+    background-color: #dae7f7;
+    padding: 80px 80px;
+    margin:40px 0px;
+}
+
+.contact_acc h2{
+    font-family: var(--font-title);
+
+}
+
+.contact_phone{
+    width: 100%;
+    text-align: start;
+}
+
+.contact_phone button{
+    height: 100px;
+    width: 400px;
+    border:none;
+    background-color: black;
+    color:yellow;
+    font-size: 3em;
+    border-radius: 10px;
+    margin : 40px 0px;
+
+}
+.contact_form{
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    width:100%;
+}
+
+.contact_form form{
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    align-items: start;
+    text-align: start;
+}
+
+
+.contact_form input{
+    margin:10px 0px;
+    padding:15px;
+    border-radius: 10px;
+    border:1px solid #b9c4d1;
+}
+
+.contact_form label{
+    font-weight: 700;
+}
+.contact_form h2, .contact_phone h2{
+    margin:0;
+    font-size: 2em;
+}
+.contact_form p{
+    font-weight: var(--font-weight-p);
+}
+
+#prenom, #email{
+    width: 50%;
+}
+#message{
+    width:96%;
+    height:50px;
+}
+
+.contact_form button{
+    width :100%;
+    background-color: black;
+    color : white;
+    font-family: var(--font-title);
+    font-weight: bold;
+    border : none;
+    padding : 15px;
+    border-radius: 5px;
+    margin : 10px 0px;
+}
+
+/* ---- CSS ACHAT ---- */
+
+.achat_acc{
+    display:flex;
+    flex-direction: column;
+    padding: 0 80px;
+}
+
+.banner_achat{
+    position: relative;
+    overflow: hidden;
+    height: 550px;
+    margin: 50px 0;
+}
+.banner_achat img{
+    object-fit: cover;
+    width: 100%;
+    height: 100%;
+    border-radius: 15px;
+    z-index: 1;
+}
+
+.banner_achat::after{
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5); /* Couleur noire semi-transparente */
+    border-radius: 10px;
+}
+
+#Tit_achat{
+    font-family: var(--font-title) ;
+    font-size: 3em;
+}
+
+.text_banner{
+    position:absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    text-align: center;
+    z-index: 3;
+    }
+
+.text_banner button{
+    background-color: black;
+    color:white;
+    padding:15px 20px;
+    border-radius: 10px;
+    border:none;
+    font-family: var(--font-title);
+    font-weight: 500;
+
+}
+
+.achat_acc h2{
+    margin:0;
+    font-size: 3em;
+}
+.achat_acc h3{
+    font-size: 1.5em;
+}
+.achat_acc p{
+    font-weight: var(--font-weight-p);
+}
+
+
+/* ---- CSS PRODUITS ----*/
+
+.produit_acc{
+    display: flex;
+    flex-direction: column;
+    padding : 0 80px;
+}
+
+.card_produit_container{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin:20px 0;
+
+}
+
+.card_produit img{
+    object-fit: cover;
+    width:100%;
+    border-radius: 10px;
+}
+
+.card_produit{
+    flex-basis: calc(33% - 10px);
+    margin-bottom: 20px;
+
+}
+
+.card_produit h4, p, span{
+    margin:10px 0;
+    font-family: var(--font-title);
+}
+
+.card_produit p{
+    font-size: 1em;
+}
+.card_produit span{
+    font-family: var(--font-title);
+    font-weight: bold;
+}
+
+
+/* ----- CSS FILTRE ----*/
+
+.filtre_acc{
+    padding: 0 80px;
+    display: flex;
+    flex-direction: row;
+    justify-content: start;
+    margin: 50px 0;
+}
+
+
+.filtre_text p{
+    width: 70%;
+    font-size: 1em;
+    margin:0;
+}
+.filtre_text h3{
+    margin: 10px 0;
+}
+.filtre_text img{
+    width: 100%;
+    height: 250px;
+    object-fit: cover;
+    margin :20px 0;
+    border-radius: 10px;;
+}
+
+.gamme_card_container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.gamme_card{
+    border:none;
+    box-shadow: -1px 3px 7px rgba(0,0,0,0.14);
+    margin: 0 0 0 20px;
+    border-radius:15px;
+    padding: 20px 20px;
+    height: 90%;
+
+}
+
+.gamme_card h4{
+    font-size:1.3em;
+}
+.gamme_card li{
+    margin:20px;
+    color:rgb(168, 168, 168);
+    font-family: var(--font-title);
+    font-weight: 500;
+}
+.gamme_card button{
+    background-color: black;
+    color:white;
+    padding: 15px 40px;
+    border:none;
+    border-radius: 5px;
+}
+
+.marque_acc{
+    display: flex;
+    flex-direction: end;
+    padding: 0 80px;
+    margin: 50px 0;
+}
+
+.marque_acc_text{
+    display: flex;
+    flex-direction: column;
+    width: 90%;
+    margin: 0;
+}
+
+.marque_acc_but_container{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content:start;
+    gap:5px;
+
+}
+.marque_acc_but_container button{
+    background-color: rgb(255, 255, 255);
+    color: rgb(0, 0, 0);
+    padding: 20px 50px;
+    border-radius: 10px;
+    border:1px solid;
+
+}
+
+
+.title_chiffre{
+    margin:0px;
+    margin-top: 90px;
+    padding : 0 80px;
+    
+}
+
+.about_acc{
+    padding: 0 80px;
+}
+
+.first-container{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap :20px;
+
+}
+
+.about_acc_text {
+    flex: 1.5;
+    margin-right: 20px;
+}
+
+.about_acc_text h4{
+    font-family: var(--font-title);
+    color: gray;
+    font-weight: 400;
+    margin : 0 0 50px 0;
+}
+.about_acc_text p{
+    font-size: 1.3em;
+}
+
+.img_acc_about {
+    flex: 1;
+}
+
+.img_acc_about img {
+    max-width: 100%;
+    height: 280px;
+    border-radius: 10px;
+}
+
+.about_acc_chiffre_container{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    margin:0;
+    padding:0 80px;
+}
+
+.about_chiffre{
+    flex-basis: calc(45% - 10px);
+    margin:30px;
+}
+
+
+.custom-size{
+    font-size: 20px;
+}
+
+
+.avis_client_acc{
+    padding: 0 80px;
+}
+
+.avis_client_container {
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+    width: 100%;
+    justify-content: space-between;
+    align-items: flex-start;
+    margin:50px 0;
+
+}
+
+.avis_client_card {
+    background-color: #fff;
+    border-radius: 15px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    padding: 30px;
+    min-width: 300px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+
+}
+
+.quote {
+    font-style: italic;
+    margin-bottom: 20px;
+    font-size: 1.2em;
+}
+
+.user-info {
+    display: flex;
+    align-items: center;
+}
+
+.user-photo {
+    border-radius: 50%;
+    width: 50px;
+    height: 50px;
+    margin-right: 10px;
+}
+
+.user_name {
+    margin: 5px 0;
+    font-size: 1em;
+}
+
+.user_description {
+    color: #777;
+    margin: 0;
+    font-size: 0.8em;
+}
+
+.text_client{
+    margin : 30px 0;
+}
+
+.separation{
+    border: 0;
+    height: 1px;
+    background: #333;
+    background-image: linear-gradient(to right, #ccc, #333, #ccc);
+    width: 87%;
+
+}
+
+
+
+
+
+.boite_modale {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: rgba(255, 255, 255, 1);
+    width: 80%;
+    max-width: 600px;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.5);
+    z-index: 5;
+    overflow: auto;
+}
+
+.carte_modale img {
+    width: 100%;
+}
+
+.carte_modale h4,
+.carte_modale p{
+    margin :10px 0;
+}
+.carte_modale span {
+    color: #000000;
+    font-weight: bold;
+}
+
+@keyframes fadeOut {
+    0% { opacity: 1; }
+    100% { opacity: 0; }
+}
+
+.carte_modale.fermeture {
+    animation: fadeOut 0.5s ease forwards;
+}

@@ -1,0 +1,125 @@
+
+
+.pres_services{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    flex-direction: column;
+    margin:20px 0;
+}
+
+.pres_services p, span{
+    width:50%;
+    color:gray;
+}
+.pres_services p{
+    font-size: 1em;
+}
+
+.banner_reparation{
+    padding: 0 80px;
+    height: 550px;
+}
+.banner_reparation h3{
+    margin:0;
+    font-size: 1em;
+    font-weight: 400;
+}
+
+.banner_reparation img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.text_reparation_container{
+    display: flex;
+    gap:40px;
+    padding: 0 80px;
+    margin:30px 0;  
+    font-size: 0.6em;
+    color:grey
+}
+
+.text_reparation_container button{
+    background-color: rgb(255, 106, 0);
+    color:white;
+    border:none;
+    border-radius: 5px;
+    padding:15px 50px;
+}
+
+.banner_recyclage{
+    padding: 0 80px;
+    height: 550px;
+}
+
+.banner_recyclage img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.text_recyclage_container{
+    display: flex;
+    gap:40px;
+    padding: 0 80px;
+    margin:30px 0;  
+    font-size: 0.6em;
+    color:grey
+}
+
+.text_recyclage_container button{
+    background-color: #2eb383;
+    color:white;
+    border: none;
+    border-radius:10px;
+    padding:20px 50px;
+}
+
+.banner_recyclage h3{
+    margin:0;
+    font-size: 1em;
+    font-weight: 400;
+}
+
+
+.banner_tuto{
+    padding: 0 80px;
+    height: 550px;
+}
+
+.banner_tuto img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.banner_tuto h3{
+    margin:0;
+    font-size: 1em;
+    font-weight: 400;
+}
+
+.video_container{
+    padding: 0 80px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin-bottom: 50px;
+}
+
+.video_redirect{
+    width:50%;
+    font-size: 0.6em;
+    color:grey;
+    margin-top:50px; 
+}
+.video_redirect button{
+    background-color: #030089;
+    color:white;
+    border:none;
+    border-radius: 10px;
+    padding:15px 15px;
+}
