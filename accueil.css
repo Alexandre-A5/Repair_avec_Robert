@@ -580,12 +580,17 @@ span{
         border-radius: 10px;;
     }
     div.gamme_card{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
         border:none;
         box-shadow: -1px 3px 7px rgba(0,0,0,0.14);
         margin:0;
         border-radius:5px;
         padding:0;
-        height: 140px;
+        height: 160px;
+
     
     }
     div.gamme_card_container{
@@ -595,7 +600,8 @@ span{
         gap:10px;
     }
     div.gamme_card ul{
-        padding: 15px 10px;
+        padding: 5px 10px;
+        margin: 10px 0;
     }
 
     div.gamme_card h4{
@@ -618,7 +624,7 @@ span{
         padding: 5px 5px;
         border-radius: 2px;
         font-size: 7px;
-        width: 100%;
+        width: 90%;
     }
 }
 
@@ -653,6 +659,8 @@ span{
     align-items: center;
 }
 .gamme_card{
+    display: flex;
+    flex-direction: column;
     border:none;
     box-shadow: -1px 3px 7px rgba(0,0,0,0.14);
     margin: 0 0 0 20px;
