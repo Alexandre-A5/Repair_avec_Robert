@@ -154,7 +154,6 @@ footer{
 .site_name_footer h3{
     font-size: 1.3em;
     font-weight: 400;
-    font-style: bold;
 }
 .social_media_footer{
     margin-top:80px;
@@ -238,7 +237,7 @@ body {
 }
 .cta_acc:hover::before {
     animation: slideBack 0.4s forwards;
-    filter: blur(0px 2px);
+
 }
 @keyframes slideBack {
     0% {
