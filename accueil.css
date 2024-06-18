@@ -1,3 +1,76 @@
+@media only screen and (max-width: 600px) {
+    .nav-links{
+        display: none;
+    }
+    .navbar{
+        padding: 10px;;
+    }
+    div.logo{
+        width: 10px;
+    }
+    .serch-bar input{
+        margin : 0 10px;
+    }
+    .menu-burger{
+        display: block;
+        font-size: 1.8em;
+        background-color: #fff;
+        padding:5px 7px;
+        color: var(--main-color);
+        border-radius: 7px;
+        margin:0;
+    }
+
+    div.acc_pres p{
+      font-size: 1em;
+      width: 70%;
+      text-align: left;
+    }
+
+    div.acc_pres h1{
+        font-size: 2.2em;
+        font-weight: 500;
+        width: 60%;
+    }
+    div.acc_pres span{
+        font-size: 20px ;
+    }
+    .service_acc{
+        padding: 0;
+    }
+    div.service_acc h2,p{
+        text-align: center;
+    }
+    div.service_acc h2{
+        font-size: 35px;
+    }
+    div.service_acc p{
+        font-size: 16px;
+        font-weight: 400;
+        text-align: center;
+    }
+
+    div.card-container{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        
+    }
+    div.card{
+        justify-content: center;
+        width: 100%;
+        height: 500px;
+        margin : 50px 0;
+    }
+    div.card p{
+        text-align: left;
+        font-size: 13px;
+    }
+    div.card button{
+        width: 100%;
+    }
+    
+}
 .acc_pres{
     display: flex;
     justify-content: center;
@@ -6,15 +79,17 @@
     flex-direction: column;
     text-align: center;
 }
-
-.acc_pres p, span{
-    width:50%;
+.acc_pres p{
+    width: 50%;
+}
+span{
+    width:70%;
     font-family: Montserrat, sans-serif, thin;
     font-weight: 200;
 }
 
 .acc_pres h1{
-    font-size: 3rem;
+    font-size: 3em;
     font-family: Montserrat, sans-serif, thin;
     font-weight: 600;
 }
@@ -29,7 +104,6 @@
 
 .service_acc{
     padding:0px 80px;
-    margin-bottom: 100px;
 }
 
 .service_acc h2{
@@ -55,7 +129,7 @@
     background-color: white;
     border-radius: 5px;
     width: 300px;
-    height: 600px;
+    height: 700px;
     text-align: left;
     transition: transform 0.3s, box-shadow 0.3s;
 }
@@ -95,6 +169,88 @@
 
 /* ---- CSS CONTACT ---- */
 
+@media only screen and (max-width: 600px){
+    div.contact_acc{
+        display: flex;
+        flex-direction: column;
+        background-color:white;
+        margin-top: 150px;
+        padding: 0 30px;
+    }
+    div.contact_acc h2{
+        align-items: center;
+        text-align: center;
+        font-size: 30px;
+        margin :0;
+    }
+
+    div.contact_phone{
+        display: flex;
+        flex-wrap: wrap;
+        align-items: center;
+        justify-content: center;
+        width: 100%;
+    }
+    div.contact_phone h2{
+        font-size: 30px;
+        width: 100%;
+    }
+    div.contact_phone button{
+        width:200px ;
+        height: 55px;
+        font-size: 1.4em;
+
+    }
+    .phone-icon{
+        font-size: 2em;
+    }
+    div.contact_adresse{
+        display: flex;
+        justify-content: space-around;
+        gap:20px;
+        margin-bottom: 30px;
+
+    }
+
+    div.contact_adresse img{
+        width: 100%;
+    }
+    div.contact_adresse p{
+        font-size: 14px;
+        text-decoration: underline 2px;
+        font-weight: 700;
+        width: 60%;
+    }
+    div.contact_form h2{
+        text-align: left;
+        font-size: 25px;
+
+    }
+    div.contact_form p{
+        text-align: left;
+        font-size: 15px;
+    }
+    div.form-label input{
+        width:100%;
+    }
+
+    div.contact_form label{
+        font-size: 14px;
+        font-weight: 500;
+    }
+    div.contact_form button{
+        width: 100%;
+    }
+    input#prenom{
+        width: 90%;
+    }
+    input#email{
+        width: 90%;
+    }
+    input#message{
+        width: 90%;
+    }
+}
 .contact_acc{
     display: flex;
     justify-content: start;
@@ -102,14 +258,16 @@
     text-align: start;
     background-color: #dae7f7;
     padding: 80px 80px;
-    margin:40px 0px;
+    margin:70px 0px;
 }
 
 .contact_acc h2{
     font-family: var(--font-title);
 
 }
-
+.contact_adresse{
+    display: none;
+}
 .contact_phone{
     width: 100%;
     text-align: start;
@@ -132,6 +290,9 @@
     justify-content: start;
     width:100%;
 }
+.contact_form h2{
+    text-align: left;
+}
 
 .contact_form form{
     display: flex;
@@ -139,6 +300,7 @@
     justify-content: start;
     align-items: start;
     text-align: start;
+    width: 100%;
 }
 
 
@@ -181,6 +343,59 @@
 }
 
 /* ---- CSS ACHAT ---- */
+
+@media only screen and (max-width: 600px){
+    div.achat_acc{
+        padding: 0 40px;
+        justify-content: center;
+        text-align: center;
+    }
+    .achat_acc h2{
+        font-size: 35px;
+    }
+    div.achat_acc h3{
+        font-size: 20px;
+    }
+    div.achat_acc p{
+        font-size: 12px;
+    }
+
+    div.banner_achat{
+        height: 150px;
+        border: 0px;
+        margin: 0;
+    }
+    div.banner_achat img{
+        border-radius: 0px;
+    }
+    div.banner_achat::after{
+        border-radius: 0px;
+    }
+    div.text_banner h2{
+        margin-top:35px;
+        font-size: 20px;
+        width: 50%;
+    }
+    div.text_banner h3{
+        font-size: 12px;
+        font-weight: 400;
+        width: 70%;
+        margin: 0;
+    }
+    div.text_banner button{
+        background-color: black;
+        color:rgb(255, 255, 255);
+        padding:10px 10px;
+        border:none;
+        font-family: var(--font-title);
+        font-weight: 500;
+        font-size: 10px;
+        margin: 0;
+    
+    }
+
+}
+
 
 .achat_acc{
     display:flex;
@@ -258,6 +473,43 @@
 
 /* ---- CSS PRODUITS ----*/
 
+@media only screen and (max-width: 600px){
+    div.produit_acc{
+        padding: 0 30px;
+    }
+    div.produit_acc h3{
+        font-size: 20px;
+        font-weight: 600;
+        text-align: center;
+    }
+    div.produit_acc p{
+        font-size: 12px;
+        text-align: center;
+        font-weight: 400;
+    }
+    div.card_produit_container{
+        display: flex;
+        flex-wrap: wrap;
+        
+    }
+    div.card_produit{
+        width: 100%;
+        flex-basis: calc(49% - 10px);
+        margin-bottom: 20px;
+
+    }
+    div.card_produit p, span{
+        text-align: left;
+        font-size:12px;
+        margin: 0;
+        font-weight: 500;
+    }
+
+    div.card_produit h4{
+        font-size: 14px;
+    }
+}
+
 .produit_acc{
     display: flex;
     flex-direction: column;
@@ -299,6 +551,76 @@
 
 
 /* ----- CSS FILTRE ----*/
+
+
+@media only screen and (max-width: 600px){
+
+    div.filtre_acc{
+        display: flex;
+        flex-direction: column;
+        padding:0 30px;
+    }
+
+    div.filtre_text h3{
+        font-size:20px ;
+        font-weight: 600;
+        text-align: left;   
+    }
+    div.filtre_text p{
+        width: 70%;
+        font-size: 12px;
+        font-weight: 400;
+        text-align: left;
+    }
+    div.filtre_text img{
+        width: 100%;
+        height: 134px;
+        object-fit: cover;
+        margin :20px 0;
+        border-radius: 10px;;
+    }
+    div.gamme_card{
+        border:none;
+        box-shadow: -1px 3px 7px rgba(0,0,0,0.14);
+        margin:0;
+        border-radius:5px;
+        padding:0;
+        height: 140px;
+    
+    }
+    div.gamme_card_container{
+        display: flex;
+        justify-content: flex-start;
+        align-items: flex-start;
+        gap:10px;
+    }
+    div.gamme_card ul{
+        padding: 15px 10px;
+    }
+
+    div.gamme_card h4{
+        font-size:11px;
+        padding: 0 5px;
+    }
+    div.gamme_card li{
+        font-size: 8px;
+        color:rgb(168, 168, 168);
+        font-family: var(--font-title);
+        font-weight: 500;
+        padding: 0;
+        margin:0;
+        text-align: left;
+    }
+    div.gamme_card button{
+        background-color: black;
+        color:white;
+        border:none;
+        padding: 5px 5px;
+        border-radius: 2px;
+        font-size: 7px;
+        width: 100%;
+    }
+}
 
 .filtre_acc{
     padding: 0 80px;
@@ -357,6 +679,57 @@
     border-radius: 5px;
 }
 
+@media only screen and (max-width: 600px){
+
+    div.marque_acc{
+        padding: 0 30px;
+        display: flex;
+        flex-direction: column;
+        gap:0px;
+
+    }
+    div.marque_acc_text{
+        display: flex;
+    }
+    div.marque_acc_text h3{
+        font-size:20px;
+        font-weight: 600;
+        text-align: left;
+        padding: 0;
+        margin: 0;
+    }
+    div.marque_acc_text p{
+        font-size:10px;
+        font-weight: 400;
+        text-align: left;
+    }
+    div.marque_acc_but_container{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content:space-around;
+        gap:22px;
+        margin:0;
+
+    
+    }
+    div.marque_acc_but_container button{
+        background-color: rgb(255, 255, 255);
+        color: rgb(0, 0, 0);
+        padding: 15px 5px;
+        border-radius: 3px;
+        border:1px solid;
+        font-size: 13px;
+        gap:0;
+    
+    }
+    div.marque_acc_but_container a{
+        gap:0px;
+        margin: 0;
+        padding: 0;
+    }
+    
+
+}
 .marque_acc{
     display: flex;
     flex-direction: end;
@@ -393,6 +766,44 @@
     margin-top: 90px;
     padding : 0 80px;
     
+}
+
+@media only screen and (max-width: 600px){
+    div.about_acc{
+        padding: 0 30px;
+    }
+
+    div.about_acc h2{
+        font-size: 30px;
+        text-align: center;
+    }
+    div.about_acc h3{
+        display: none;
+    }
+    div.about_acc_text p{
+        font-size: 16px;
+        font-weight: 500;
+        line-height: 24px;
+    }
+    div.first-container{
+        display: flex;
+        flex-direction: column-reverse;
+    }
+
+    div.first-container img{
+        height:223px;
+        object-fit: cover;
+    }
+
+    .deleted-paragraph{
+        display: none;
+    }
+    
+    .title_chiffre{
+        font-size: 30px;
+        padding : 0;
+        text-align: center;
+    }
 }
 
 .about_acc{
@@ -432,6 +843,34 @@
     border-radius: 10px;
 }
 
+@media only screen and (max-width: 600px){
+    div.about_acc_chiffre_container{
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-start;
+        text-align: left;
+        padding:0 30px;
+    }
+    div.about_chiffre{
+        margin:0;
+        margin-top:30px;
+        height: 400px;
+    }
+    div.about_chiffre p{
+        text-align: left;
+        font-size: 16px;
+        width: 100%;
+        
+    }
+    div.about_acc_text p{
+        text-align: left;
+        margin:0;
+    }
+    div.about_acc_text h4{
+        margin:20px 0;
+    }
+}
+
 .about_acc_chiffre_container{
     display: flex;
     justify-content: space-between;
@@ -448,6 +887,9 @@
 
 .custom-size{
     font-size: 20px;
+}
+.text_client{
+    margin : 30px 0;
 }
 
 
@@ -471,7 +913,7 @@
     border-radius: 15px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
     padding: 30px;
-    min-width: 300px;
+    width: 300px;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -507,9 +949,7 @@
     font-size: 0.8em;
 }
 
-.text_client{
-    margin : 30px 0;
-}
+
 
 .separation{
     border: 0;
@@ -559,4 +999,99 @@
 
 .carte_modale.fermeture {
     animation: fadeOut 0.5s ease forwards;
+}
+
+
+
+@media only screen and (max-width: 600px){
+    div.avis_client_acc{
+        padding:0 30px;
+    }
+    div.avis_client_acc p{
+        font-size: 16px;
+        font-weight: 400;
+        text-align: left;
+        margin:0;
+    }
+    .text_client{
+        font-size: 30px;
+        font-weight: 600;
+        text-align: left;
+        margin:0px;
+    }
+    div.avis_client_container {
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        gap: 10px;
+        width: 100%;
+        align-items: flex-start;
+        margin:0px 0;
+    
+    }
+    div.avis_client_card {
+        background-color: #fff;
+        border-radius: 15px;
+        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+        padding:0;
+        width: 48%;
+        height: 150px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+
+    
+    }
+
+    div.avis_client_card p{
+        font-size: 10px;
+        margin-bottom: 10px;
+        padding: 0 10px;
+    }
+    .user-photo{
+        width: 35px;
+        height: 35px;
+        margin:10px
+    }
+
+
+    footer{
+        padding: 0 30px;
+        display: flex;
+        flex-direction: row;
+        justify-content:space-between;
+    }
+    .first_section_footer{
+        display: flex;
+        flex-direction: row;
+        gap:10px;
+        align-items: center;
+    }
+    .social_media_footer{
+        margin:0;
+        display: flex;
+        flex-direction: row;
+        gap:5px;
+
+    }
+    .social_media_footer i{
+        font-size: 12px;
+        margin:0;
+
+    }
+    div.second_section_footer{
+        flex-direction: row;
+    
+    }
+    div.topic_section{
+        display: none;
+    }
+    input#only-topic{
+        display: block;
+    }
+    .site_name_footer h3{
+        font-size: 16px;
+        margin: 0;
+
+    }
 }

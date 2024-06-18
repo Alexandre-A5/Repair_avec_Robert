@@ -1,20 +1,23 @@
 
 
 .pres_services{
+    padding: 0 80px;
     display: flex;
+    text-align: center;
     justify-content: center;
     align-items: center;
-    text-align: center;
     flex-direction: column;
-    margin:20px 0;
 }
-
 .pres_services p, span{
     width:50%;
-    color:gray;
+    font-family: Montserrat, sans-serif, thin;
+    font-weight: 200;
 }
-.pres_services p{
-    font-size: 1em;
+
+.pres_services h1{
+    font-size: 3rem;
+    font-family: Montserrat, sans-serif, thin;
+    font-weight: 600;
 }
 
 .banner_reparation{
