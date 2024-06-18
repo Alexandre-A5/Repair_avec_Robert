@@ -32,7 +32,9 @@ p{
 
 h2{font-size: 3em;
 }
-
+.menu-bg{
+    display: none;
+}
 .sidenav{
     display: none;
 }
@@ -319,6 +321,9 @@ body {
 
 @media only screen and (max-width: 600px){
     div.sidenav{
+        display: block;
+    }
+    div.menu-bg{
         display: block;
     }
 }
