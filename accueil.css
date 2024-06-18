@@ -732,7 +732,6 @@ span{
 }
 .marque_acc{
     display: flex;
-    flex-direction: end;
     padding: 0 80px;
     margin: 50px 0;
 }
