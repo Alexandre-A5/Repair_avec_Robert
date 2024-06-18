@@ -120,7 +120,6 @@ footer{
     padding: 0 80px;
     display: flex;
     justify-content:space-between;
-    margin-bottom: 100px;
 }
 
 .second_section_footer{
@@ -144,6 +143,24 @@ footer{
 }
 
 .topic_section ul{
+    padding: 0;
+    margin : 0 40px;
+}
+.topic_section2{
+    flex-direction: row;
+    margin-right: 80px;
+    text-align: center;
+    font-family: var(--font-title);
+}
+.topic_section2 li, a{
+    text-decoration: none;
+    text-decoration-line: none;
+    list-style-type: none;
+    margin :20px 0;
+    color :grey;
+}
+
+.topic_section2 ul{
     padding: 0;
     margin : 0 40px;
 }

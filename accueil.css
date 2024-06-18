@@ -1067,18 +1067,25 @@ span{
         display: flex;
         flex-direction: row;
         justify-content:space-between;
+        background-color: grey;
     }
     .first_section_footer{
         display: flex;
         flex-direction: row;
         gap:10px;
         align-items: center;
+        justify-content: space-around;
+        width: 100%;
     }
     .social_media_footer{
         margin:0;
+        padding: 5px;
         display: flex;
         flex-direction: row;
         gap:5px;
+        background-color: white;
+        z-index:100;
+        
 
     }
     .social_media_footer i{
@@ -1088,6 +1095,7 @@ span{
     }
     div.second_section_footer{
         flex-direction: row;
+        width: 40%;
     
     }
     div.topic_section{
@@ -1096,9 +1104,13 @@ span{
     input#only-topic{
         display: block;
     }
+    div.topic_section2{
+        scale:0.6;
+    }
     .site_name_footer h3{
         font-size: 16px;
         margin: 0;
+        width: 100%;
 
     }
 }
