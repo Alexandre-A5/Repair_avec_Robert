@@ -167,6 +167,7 @@ footer{
     padding: 0 80px;
     display: flex;
     justify-content:space-between;
+    margin-bottom: 50px;
 }
 
 .second_section_footer{
