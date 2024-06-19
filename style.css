@@ -281,44 +281,40 @@ body {
     border: none;
     cursor: pointer;
     background: transparent;
+    transition: 0.15s ease-in-out;
     overflow: hidden;
     color: black;
+    
 }
-
-.cta_acc::before{
+.cta_acc::after{
+    
     content: '';
     position: absolute;
-    top: 0;
-    left: -100%;
-    width: 100%;
-    height: 100%;
-    background: #ffffff;
-    transition: left 0.5s, right 0.5s;
-    z-index: -1;
+    overflow: hidden;
+    top: -50%;
+    right: -50%;
+    bottom: -50%;
+    left: -50%;
+    background: linear-gradient(to bottom, rgba(229, 172, 142, 0), rgba(255, 255, 255, 0.623) 50%, rgba(229, 172, 142, 0));
+    transform: rotateZ(60deg) translate(0em, 5.5em);
+      
 }
-
-.cta_acc:hover::before{
-    left: 0;
-    right:0;
-}
-.cta_acc:hover::before {
-    animation: slideBack 0.4s forwards;
-
-}
-@keyframes slideBack {
-    0% {
-        left: -100%;
-        right: -100%;
-    }
-    50% {
-        left: 0;
-        right: 0;
-    }
+@keyframes sheen {
     100% {
-        left: 100%;
-        right: 0;
+      transform: rotateZ(60deg) translate(1em, -9em);
     }
+  }
+  
+
+.cta_acc:hover::after, .cta_acc:focus::after {
+    animation: sheen 2s forwards;
+  }
+.cta_acc:hover{
+    scale:1.1;
 }
+
+
+
 
 
 @media only screen and (max-width: 600px){
