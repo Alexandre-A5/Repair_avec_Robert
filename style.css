@@ -167,7 +167,6 @@ footer{
     padding: 0 80px;
     display: flex;
     justify-content:space-between;
-    margin-bottom: 50px;
 }
 
 .second_section_footer{
@@ -195,6 +194,7 @@ footer{
     margin : 0 40px;
 }
 .topic_section2{
+    width: 100%;
     flex-direction: row;
     margin-right: 80px;
     text-align: center;
@@ -217,8 +217,9 @@ footer{
     margin : 30px 0;
 }
 .site_name_footer h3{
-    font-size: 1.3em;
+    font-size: 16px;
     font-weight: 400;
+    color:white;
 }
 .social_media_footer{
     margin-top:80px;
@@ -327,4 +328,73 @@ body {
     div.menu-bg{
         display: block;
     }
+    .topic_section2{
+        margin:0;
+    }
+    .topic_section2 li, a{
+        color:white;
+        font-size: 11px;
+        margin:15px 0;
+    }
+    .topic_section2 li{
+        font-weight: 500;
+    }
+    .topic_section2 h5{
+        display: none;
+    }
+    footer{
+
+    height: 100px;
+    padding: 0 10px;
+    display: flex;
+    flex-direction: row;
+    justify-content:space-between;
+    background-color: grey;
+}
+.first_section_footer{
+    display: flex;
+    flex-direction: row;
+    gap:10px;
+    align-items: center;
+    justify-content: space-around;
+    width: 100%;
+}
+.social_media_footer{
+    margin:0;
+    padding: 5px;
+    display: flex;
+    flex-direction: row;
+    gap:5px;
+    background-color: white;
+    border-radius: 5px;
+    z-index:100;
+    opacity: 1;
+    
+
+}
+.social_media_footer i{
+    font-size: 12px;
+    margin:0;
+    padding:0 5px;
+    color:grey;
+
+}
+div.second_section_footer{
+    flex-direction: row;
+    width: 25%;
+
+}
+div.topic_section{
+    display: none;
+}
+input#only-topic{
+    display: block;
+}
+.site_name_footer h3{
+    font-size: 16px;
+    margin: 0;
+    width: 100%;
+
+}
+
 }
