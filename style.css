@@ -307,7 +307,7 @@ body {
     animation: sheen 2s forwards;
   }
 .cta_acc:hover{
-    scale:1.1;
+    transform: scale(1.1);
 }
 
 
