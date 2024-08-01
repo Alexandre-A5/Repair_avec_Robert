@@ -2,7 +2,7 @@ body {
     margin: 0;
     font-family: Arial, sans-serif;
     box-sizing: border-box;
-    user-select: none;
+
 }
 :root{
     --main-color: #007BFF;
@@ -236,39 +236,7 @@ footer{
 
 }
 
-.cursor-dot,
-.cursor-dot-outline {
-    pointer-events: none;
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    border-radius: 50%;
-    opacity: 0;
-    transform: translate(-50%, -50%);
-    transition: opacity 0.1s ease-in-out,
-                transform 0.1s ease-in-out;
-}
 
-html,
-body {
-    cursor: none;        
-}
-
-.cursor-dot {
-    width: 15px;
-    height: 15px;
-    background-color: #f5e31d;
-    z-index: 99;
-}
-
-.cursor-dot-outline {
-
-    width: 30px;
-    height: 30px;
-    background-color: #fffd8977;
-    opacity: 0.5;
-    z-index:98;
-}
 
 .cta_acc{
     position: relative;
@@ -317,6 +285,9 @@ body {
 @media only screen and (max-width: 600px){
     div.sidenav{
         display: block;
+    }
+    .cta_acc{
+        width: 70%;
     }
     div.menu-bg{
         display: block;
