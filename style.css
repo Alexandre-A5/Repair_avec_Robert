@@ -316,6 +316,7 @@ footer{
     flex-direction: row;
     justify-content:space-between;
     background-color: grey;
+    flex-wrap:wrap;
 }
 .first_section_footer{
     display: flex;
