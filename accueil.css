@@ -630,6 +630,7 @@ span{
         justify-content: space-around;
         gap:20px;
         margin-bottom: 30px;
+        flex-wrap: wrap;
 
     }
 
